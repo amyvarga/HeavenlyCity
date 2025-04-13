@@ -1,14 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import Canvas from "./Canvas/Canvas";
 
 function App() {
   return (
-    <div className="App">
-      <header className="Heavenly City">
-        <h1>The Heavenly City</h1>
-        <canvas width="1000" height="600" />
-      </header>
-    </div>
+    <Canvas />
   );
 }
 
